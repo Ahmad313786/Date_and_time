@@ -1,0 +1,32 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f2937; /* gray-900 */
+  color: white;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.clock {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.date {
+  font-size: 1.25rem;
+  color: #9ca3af; /* gray-400 */
+  margin-top: 10px;
+}
